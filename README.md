@@ -29,5 +29,5 @@ Ultilizing MMP for video deblurring by merging into an RNN.
 ```
 
 ## Contact
-wang@robot.t.u-tokyo.ac.jp
+Email of Yusheng Wang: wang@robot.t.u-tokyo.ac.jp
 
