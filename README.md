@@ -1,6 +1,6 @@
 # Efficient Video Deblurring Guided by Motion Magnitude
 Official repository of MMP-RNN (ECCV 2022)  
-Estimate pixel-wise blur level first and video deblur.
+Estimate pixel-wise blur level (MMP) first and video deblur.
 <div align="center"><img src="https://user-images.githubusercontent.com/11170161/178935637-6bb6a25a-dc67-4d5e-9c3c-f7f31be41085.png" width="480"></div>
 
 ## Requirements
