@@ -18,3 +18,13 @@ Using a UNet-like structure to learn MMP.
 ## MMP-RNN
 Ultilizing MMP for video deblurring by merging into an RNN.
 
+## Citation
+```
+@inproceedings{wang2022MMP,
+  title={Efficient Video Deblurring Guided by Motion Magnitude},
+  author={Wang, Yusheng and Lu, Yunfan and Gao, Ye and Wang, Lin and Zhong, Zhihang and Zheng, Yinqiang and Yamashita, Atsushi},
+  booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
+  year={2022}
+}
+```
+
