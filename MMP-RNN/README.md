@@ -12,6 +12,9 @@ para.test_only = True
 para.test_save_dir = './results/'
 para.test_checkpoint = './experiment/<weight>'
 ```
+## Weight for MMP-Net
+The uploaded weight is for MMP-Net, a modified UNet for MMP estimation.  
+To download the pretrained weight for MMP-RNN, please check the link follows.
 ## Results
 Results on GOPRO [here](https://drive.google.com/file/d/19LHci0U0xFiLuWjJ5w93mdB8zoHI8Grb/view?usp=sharing)  
 Pretrained weight on GOPRO [here](https://drive.google.com/file/d/1xDosEjGCyDXRBKPMxJ1Vyp7nB1e2cygJ/view?usp=sharing)
