@@ -267,7 +267,7 @@ class CAT(nn.Module):
         self.ca = CALayer(self.frames * (5 * self.n_feats))
     def forward(self, hs):
         out = torch.cat(hs, dim=1)
-        #out,_ = self.ca(out)
+        out,_ = self.ca(out)
         out = self.fusion(out)
         return out
 

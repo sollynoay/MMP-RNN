@@ -92,18 +92,19 @@ def process(para):
     # training and validation
     for epoch in range(para.start_epoch, para.end_epoch + 1):
         train(train_loader, model, criterion, metrics, opt, epoch, para, logger, model_UNet=None)
-        valid(valid_loader, model, criterion, metrics, epoch, para, logger, model_UNet=None)
+        if epoch%10==0 or epoch>900:
+            valid(valid_loader, model, criterion, metrics, epoch, para, logger, model_UNet=None)
 
-        # save checkpoint
-        checkpoint = {
-            'epoch': epoch,
-            'model': para.model,
-            'state_dict': model.state_dict(),
-            'register_dict': logger.register_dict,
-            'optimizer': opt.optimizer.state_dict(),
-            'scheduler': opt.scheduler.state_dict()
-        }
-        logger.save(checkpoint)
+            # save checkpoint
+            checkpoint = {
+                'epoch': epoch,
+                'model': para.model,
+                'state_dict': model.state_dict(),
+                'register_dict': logger.register_dict,
+                'optimizer': opt.optimizer.state_dict(),
+                'scheduler': opt.scheduler.state_dict()
+            }
+            logger.save(checkpoint)
 
 
 def train(train_loader, model, criterion, metrics, opt, epoch, para, logger, model_UNet=None):
