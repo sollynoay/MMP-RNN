@@ -1,6 +1,6 @@
 # Preparing ground truth MMP
 ## Optical flow estimation
-Using [RAFT](https://github.com/princeton-vl/RAFT) for optical flow estimation. Pretrained weight for RAFT is [here](http://gofile.me/7aSbh/xcbrGGkd1).
+Using [RAFT](https://github.com/princeton-vl/RAFT) for optical flow estimation. Pretrained weight for RAFT is [here](http://gofile.me/7aSbh/oWVerc9nr).
 ## Generating ground truth data
 Run the code in MMP-generate.ipynb
 ## Our generated dataset
